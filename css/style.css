@@ -1,0 +1,128 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #3C3C3C;
+    padding: 0 5%;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4{
+    font-family: 'Bebas Neue', cursive;
+}
+img{
+    width: 100%;
+}
+section{
+    overflow: hidden;
+    padding-bottom: 150px;
+}
+.btn{
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    background-image: linear-gradient(lightsalmon, tomato);
+
+}
+header {
+    text-align: right;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header ul a {
+    display: inline-block;
+    text-decoration: none;
+    color: #3c3c3c;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 30px 10px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+section.hero-area h1 {
+    color: #363958;
+    font-size: 84px;
+    text-transform: uppercase;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+}
+.single-project {
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+    background: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px #ddd;
+}
+
+section.projects {
+    background: #E5E5E5;
+    padding-top: 150px;
+}
+
+.single-project h3 {
+    color: #363958;
+    font-size: 24px;
+    font-family: 'Roboto';
+}
+
+.single-project p {
+    color: #6C6C6C;
+    line-height: 28px;
+}
+.work-inner {
+    background: #5049D1;
+    margin: 15%;
+    padding: 5%;
+    overflow: hidden;
+    border-radius: 30px;
+}.work-inner h2 {
+    font-size: 64px;
+    color: #fff;
+    margin: 0;
+    line-height: 100%;
+}
+
+.work-inner .btn {
+    text-align: right;
+    float: right;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h4 {
+    color: #696871;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+footer img {
+    width: 35px;
+}
+
+footer a {
+    color: #363958;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    display: inline-block;
+}
+
+footer {}
