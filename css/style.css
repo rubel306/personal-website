@@ -16,7 +16,7 @@ img{
 }
 section{
     overflow: hidden;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 .btn{
     font-size: 16px;
@@ -53,6 +53,10 @@ section.hero-area h1 {
     color: #363958;
     font-size: 84px;
     text-transform: uppercase;
+    line-height: 25%;
+}
+.hero-area h1.orange-highlight {
+    color: orange;
 }
 .half-width{
     width: 40%;
@@ -71,8 +75,8 @@ section.hero-area h1 {
 }
 
 section.projects {
-    background: #E5E5E5;
-    padding-top: 150px;
+    background: #F8F9FC;
+    padding-top: 50px;
 }
 
 .single-project h3 {
@@ -84,6 +88,13 @@ section.projects {
 .single-project p {
     color: #6C6C6C;
     line-height: 28px;
+}
+.projects h2{
+    text-align: center;
+    font-size: 48px;
+}
+.red-highlight{
+    color: #F46060;
 }
 .work-inner {
     background: #5049D1;
@@ -102,7 +113,9 @@ section.projects {
     text-align: right;
     float: right;
 }
-
+section.work-query {
+    padding-bottom: 0;
+}
 footer {
     text-align: center;
 }
